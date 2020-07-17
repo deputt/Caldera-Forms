@@ -70,6 +70,23 @@ echo $wrapper_before; ?>
 			<option value="WV">West Virginia</option>
 			<option value="WI">Wisconsin</option>
 			<option value="WY">Wyoming</option>
+			<option> ==================== </option>
+			<option value="JHR">Johor</option>
+			<option value="KDH">Kedah</option>
+			<option value="KTN">Kelantan</option>
+			<option value="MLK">Melaka</option>
+			<option value="NSN">Negeri Sembilan</option>
+			<option value="PHG">Pahang</option>
+			<option value="PRK">Perak</option>
+			<option value="PLS">Perlis</option>
+			<option value="PNG">Pulau Pinang</option>
+			<option value="SBH">Sabah</option>
+			<option value="SWK">Sarawak</option>
+			<option value="SGR">Selangor</option>
+			<option value="TRG">Terengganu</option>
+			<option value="KUL">Wilayah Persekutuan Kuala Lumpur</option>
+			<option value="LBN">Wilayah Persekutuan Labuan</option>
+			<option value="PJY">Wilayah Persekutuan Putrajaya</option>
 		</select>
 		<?php
 			$states = ob_get_clean();
