@@ -28,7 +28,7 @@
 					<div class="checkbox">
 				<?php } ?>
 
-                <label <?php if (!empty($field['config']['inline'])) { ?> class="checkbox-inline"<?php } ?>
+                <label id="<?php echo esc_attr( $field_id . '_' . $option_key ); ?>_label" <?php if (!empty($field['config']['inline'])) { ?> class="checkbox-inline"<?php } ?>
                         for="<?php echo esc_attr($field_id . '_' . $option_key); ?>"
                 >
                             <input
